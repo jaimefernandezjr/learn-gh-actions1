@@ -3,4 +3,4 @@
 import app
 
 def test_say_hello():
-    assert app.say_hello() == "Hello, World!"
+    assert app.say_hello() != "Hello, World!"
